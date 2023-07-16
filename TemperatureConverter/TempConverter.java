@@ -34,7 +34,7 @@ public class TempConverter extends Subject{
         this.fah = fah;
     }
     public double getCel() {
-        return this.cel;
+        return this.cel+1;
     }
 
     public double getFah() {
